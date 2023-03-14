@@ -39,4 +39,4 @@ Warning: this step can take time
 ```C:\Users\darryl-mbae> vagrant init ubuntu/focal64``` -> it will generate a Vagrantfile with base = "ubuntu/focal64" -you don’t have to execute this command line everyday, only once, to create a new virtual machine
 * ```C:\Users\darryl-mbae> vagrant plugin install vagrant-vbguest``` -> to avoid issue with the last version of Vagrant (2.2.4 or latest)
 * ```C:\Users\darryl-mbae> vagrant up``` -> it will start your virtual machine
-* ```C:\Users\darryl-mbae> vagrant ssh``` -> now you are inside your virtual machine.
+* ```C:\Users\darryl-mbae> vagrant ssh``` -> now you are inside your virtual machine. Happy Coding 👌
