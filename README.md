@@ -17,3 +17,8 @@ In my Understanding it is saying goodbye to downloading an ISO file for hours or
 * Download Vagrant from this [link](https://developer.hashicorp.com/vagrant/downloads)
 * Install Vagrant
 * Open the Terminal application
+
+Now you will execute command line in your Terminal (each of them start with $)
+* Add the Ubuntu 20.04 (Focal) image to your box list: 
+```$ vagrant box add ubuntu/focal64```
+Warning: this step can take time
