@@ -40,3 +40,14 @@ Warning: this step can take time
 * ```C:\Users\darryl-mbae> vagrant plugin install vagrant-vbguest``` -> to avoid issue with the last version of Vagrant (2.2.4 or latest)
 * ```C:\Users\darryl-mbae> vagrant up``` -> it will start your virtual machine
 * ```C:\Users\darryl-mbae> vagrant ssh``` -> now you are inside your virtual machine. Happy Coding 👌
+
+## 3 Ubuntu
+* Open the Terminal application:
+* Now you will execute command line in your Terminal (each of them start with $)
+* Install VirtualBox: $ sudo apt-get install virtualbox
+* Install Vagrant: $ sudo apt-get install vagrant
+* Add the Ubuntu 20.04 (Focal) image to your box list: ```$ vagrant box add ubuntu/focal64``` Warning: this step can take time
+* Create your first virtual machine:
+```$ vagrant init ubuntu/focal64``` -> it will generate a Vagrantfile with base = "ubuntu/focal64" - you don’t have to execute this command line everyday, only once, to create a new virtual machine
+```$ vagrant up``` -> it will start your virtual machine
+```$ vagrant ssh``` -> now you are inside your virtual machine.
