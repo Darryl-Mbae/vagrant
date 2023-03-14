@@ -56,4 +56,4 @@ Warning: this step can take time
 # NB
 After installing vagrant and running your ubuntu some stuff might not yet be installed e.g git hence install them
 
-For common commands of vagrant check the README.md file inside the folder
+For common commands of vagrant check the [README.md](https://github.com/Darryl-Mbae/zero_day/blob/master/0x00-vagrant/README.md) file inside the folder
