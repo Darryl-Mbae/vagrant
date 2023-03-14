@@ -1,4 +1,3 @@
-![image](https://user-images.githubusercontent.com/102142446/225112066-613fe29e-4a24-4ce8-a979-a86dee9f5659.png)
 # Vagrant 
 Vagrant is an open-source software product for building and maintaining portable virtual software development environments; e.g., for VirtualBox, KVM, Hyper-V, Docker containers, VMware, Parallels, and AWS.
 With an easy-to-use workflow and focus on automation, Vagrant lowers development environment setup time, increases production parity, and makes the "works on my machine" excuse a relic of the past.
@@ -13,7 +12,6 @@ In my Understanding it is saying goodbye to downloading an ISO file for hours or
 
 ## Steps to Installing Vagrant
 ## Mac OSx
-![image](https://www.techrepublic.com/wp-content/uploads/2017/12/macoshero.jpg)
 * Download VirtualBox from this [link](https://www.virtualbox.org/wiki/Downloads)
 * Install VirtualBox or Virtual machine of your choice ( Here I will be using VirtualBox cause it is more supported)
 * Download Vagrant from this [link](https://developer.hashicorp.com/vagrant/downloads)
@@ -26,3 +24,7 @@ Now you will execute command line in your Terminal (each of them start with $)
 Warning: this step can take time
 * Create your first virtual machine:
 ```$ vagrant init ubuntu/focal64```  -> it will generate a Vagrantfile with base = "ubuntu/focal64" - you don’t have to execute this command line everyday, only once, to create a new virtual machine
+* ```$ vagrant up``` -> it will start your virtual machine
+* ```$ vagrant ssh``` -> now you are inside your virtual machine.
+
+## Windows
