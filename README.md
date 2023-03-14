@@ -11,7 +11,7 @@ To achieve its magic, Vagrant stands on the shoulders of giants. Machines are pr
 In my Understanding it is saying goodbye to downloading an ISO file for hours or upto a day you can instantly start using different os terminals in minutes and I will show you how 
 
 ## Steps to Installing Vagrant
-## Mac OSx
+## 1 Mac OSx
 * Download VirtualBox from this [link](https://www.virtualbox.org/wiki/Downloads)
 * Install VirtualBox or Virtual machine of your choice ( Here I will be using VirtualBox cause it is more supported)
 * Download Vagrant from this [link](https://developer.hashicorp.com/vagrant/downloads)
@@ -27,7 +27,7 @@ Warning: this step can take time
 * ```$ vagrant up``` -> it will start your virtual machine
 * ```$ vagrant ssh``` -> now you are inside your virtual machine.
 
-## Windows
+## 2 Windows
 * Download VirtualBox from this [link](https://www.virtualbox.org/wiki/Downloads)
 * Install VirtualBox
 * Download Vagrant from this [link](https://developer.hashicorp.com/vagrant/downloads)
@@ -39,3 +39,4 @@ Warning: this step can take time
 ```C:\Users\darryl-mbae> vagrant init ubuntu/focal64``` -> it will generate a Vagrantfile with base = "ubuntu/focal64" -you don’t have to execute this command line everyday, only once, to create a new virtual machine
 * ```C:\Users\darryl-mbae> vagrant plugin install vagrant-vbguest``` -> to avoid issue with the last version of Vagrant (2.2.4 or latest)
 * ```C:\Users\darryl-mbae> vagrant up``` -> it will start your virtual machine
+* ```C:\Users\darryl-mbae> vagrant ssh``` -> now you are inside your virtual machine.
