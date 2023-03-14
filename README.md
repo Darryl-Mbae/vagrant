@@ -51,3 +51,9 @@ Warning: this step can take time
 * ```$ vagrant init ubuntu/focal64``` -> it will generate a Vagrantfile with base = "ubuntu/focal64" - you don’t have to execute this command line everyday, only once, to create a new virtual machine
 * ```$ vagrant up``` -> it will start your virtual machine
 * ```$ vagrant ssh``` -> now you are inside your virtual machine.
+
+
+# NB
+After installing vagrant and running your ubuntu some stuff might not yet be installed e.g git hence install them
+
+For common commands of vagrant check the README.md file inside the folder
