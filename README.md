@@ -11,3 +11,9 @@ To achieve its magic, Vagrant stands on the shoulders of giants. Machines are pr
 In my Understanding it is saying goodbye to downloading an ISO file for hours or upto a day you can instantly start using different os terminals in minutes and I will show you how 
 
 ## Steps to Installing Vagrant
+## Mac OSx
+* Download VirtualBox from this [link](https://www.virtualbox.org/wiki/Downloads)
+* Install VirtualBox or Virtual machine of your choice ( Here I will be using VirtualBox cause it is more supported)
+* Download Vagrant from this [link](https://developer.hashicorp.com/vagrant/downloads)
+* Install Vagrant
+* Open the Terminal application
